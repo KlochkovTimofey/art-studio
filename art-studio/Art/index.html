@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Nav menu -->
+    <div class="social">
+        <a href="#" class="social-item">
+            <img src="img/icons/social-fb-ic.svg" alt="facebook" class="social-item-img">
+        </a>
+        <a href="#" class="social-item">
+            <img src="img/icons/social-vk-ic.svg" alt="vkontakte" class="social-item-img">
+        </a>
+        <a href="#" class="social-item">
+            <img src="img/icons/social-tiktok-ic.svg" alt="tiktok" class="social-item-img">
+        </a>
+        <a href="#" class="social-item">
+            <img src="img/icons/social-inst-ic.svg" alt="instagram" class="social-item-img">
+        </a>
+    </div>
+
+    <div class="header" id="header">
+        <div class="header-left">
+            <div class="color dark-blue"></div>
+            <div class="color red"></div>
+            <div class="color yellow"></div>
+            <div class="color light-blue"></div>
+        </div>
+        <div class="header-right">
+            <h1 class="header-title">Art <span>studio</span></h1>
+            <div class="header-branches">
+                <p class="branch-item">photography</p>
+                <p class="branch-item">art</p>
+                <p class="branch-item">design and branding</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="about" id="about">
+        <div class="about-content">
+           <div class="about-content-left">
+                <h2 class="about-title">Кто мы?</h2>
+                <p class="about-text">Наша студия создает крутые дизайны и брендинг.
+                    Мы делаем качественно. В числе наших клиентов крупные компании и вообще мы молодцы
+                </p>
+           </div>
+           <div class="about-content-right">
+               <div class="about-rect rect1"></div>
+               <div class="about-rect rect2"></div>
+               <div class="about-rect rect3"></div>
+        </div>
+        </div>
+        <div class="about-background">
+            <p class="bg-text">Знакомимся</p>
+            
+        </div>
+    </div>
+
+    <div class="advantages" id="advantages">
+        <div class="advantages-content">
+            <h2 class="advantages-title">Современный дизайн</h2>
+            <p class="advantages-text">Разрушаем стереотипы, делаем крутой дизайн и создаем ШЕДЕВРЫ</p>
+            <img src="img/pictures/3rd-section-img.png" alt="advantages-img" class="advantages-img">
+        </div>
+        <div class="advantages-background">
+            <p class="bg-text">Наша фишка</p>
+        </div>
+    </div>
+
+    <div class="photography" id="photography">
+        <div class="photography-left">
+            <!-- Оставляем пустым, тут будет фоновое изображение -->
+        </div>
+        <div class="photography-right">
+            <div class="photography-content">
+                <h2 class="photography-title">А еще...</h2>
+                <p class="photography-text">У нас крутые фотографы, которые могут сделать вам фотки</p>
+            </div>
+            <div class="photography-bg">
+                <p class="bg-text">Мы полны сюрпризов</p>
+                <div class="bg-img"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="gallery" id="gallery">
+        <h2 class="gallery-title">Наше портфолио</h2>
+        <div class="gallery-content">
+            <img src="img/pictures/gallery1.png" alt="item1" class="gallery-item item1">
+            <img src="img/pictures/gallery2.png" alt="item2" class="gallery-item item2">
+            <img src="img/pictures/gallery3.png" alt="item3" class="gallery-item item3">
+            <img src="img/pictures/gallery4.png" alt="item4" class="gallery-item item4">
+            <img src="img/pictures/gallery5.png" alt="item5" class="gallery-item item5">
+            <img src="img/pictures/gallery6.png" alt="item6" class="gallery-item item6">
+            <img src="img/pictures/gallery7.png" alt="item7" class="gallery-item item7">
+        </div>
+    </div>
+
+    <div class="contact" id="contact">
+        <div class="left-side"></div>
+        <div class="mid-side">
+            <h2 class="contact-title">Связаться с нами</h2>
+            <form action="#" class="contact-form">
+                <label for="name" class="form-label">Имя</label>
+                <input type="text" id="name" name="name" placeholder="Иван Иванов" class="text-input">
+
+                <label for="mail" class="form-label">Почта</label>
+                <input type="email" id="mail" name="mail"  placeholder="example@mail.ru" class="text-input">
+
+                <label for="isCompany" class="form-label">Вид юр. лица</label>
+                <select name="isCompany" id="isCompany" class="select-input">
+                    <option value="yes">Да, мы компания</option>
+                    <option value="no">Нет, я физ лицо</option>
+                </select>
+
+
+                <label for="agreement" class="form-label">Согласие на обработку данных</label>
+                <input type="checkbox" name="agreement" id="agreement" class="check-input">
+
+                <button class="form-btn">Отправить форму</button>
+            </form>
+        </div>
+        <div class="right-side"></div>
+    </div>
+</body>
+</html>
